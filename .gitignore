@@ -1,0 +1,10 @@
+*
+*/*
+
+!.gitignore
+!brittany.yaml
+!aoc2021.cabal
+!src
+!src/**
+!input
+!input/**
