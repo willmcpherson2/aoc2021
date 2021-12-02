@@ -23,5 +23,5 @@ executable bin
   import: shared
   hs-source-dirs: src
   main-is: Main.hs
-  other-modules: Day1
+  other-modules: Day1Part1, Day1Part2
   build-depends: base
