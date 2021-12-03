@@ -1,4 +1,4 @@
-cabal-version: 2.4
+cabal-version: 3.6
 name: aoc2021
 version: 0.1.0.0
 
@@ -23,5 +23,5 @@ executable bin
   import: shared
   hs-source-dirs: src
   main-is: Main.hs
-  other-modules: Day1Part1, Day1Part2, Day2Part1, Day2Part2
+  other-modules: Day1Part1, Day1Part2, Day2Part1, Day2Part2, Day3Part1
   build-depends: base
