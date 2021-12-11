@@ -34,4 +34,5 @@ executable bin
     , Day4Part2
     , Day5Part1
     , Day5Part2
+    , Day6Part1
   build-depends: base, split
