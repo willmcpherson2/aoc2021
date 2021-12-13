@@ -23,6 +23,7 @@ executable bin
   import: shared
   hs-source-dirs: src
   main-is: Main.hs
+  ghc-options: -O2 -threaded -rtsopts -with-rtsopts=-N8
   other-modules:
     Day1Part1
     , Day1Part2
@@ -35,4 +36,5 @@ executable bin
     , Day5Part1
     , Day5Part2
     , Day6Part1
-  build-depends: base, split
+    , Day6Part2
+  build-depends: base, split, parallel
